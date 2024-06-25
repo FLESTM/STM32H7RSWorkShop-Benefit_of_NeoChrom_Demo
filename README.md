@@ -97,6 +97,6 @@ rotating and a button which allows to activate/deactivate NeoChrom IP.
   - connect STM32H7S78-DK CN7 to your PC
   - launch `Program and Run to Target`
     ![Compile and run](./img/compile_and_download.gif)
-  - Result on the target    
+  - Result on the target. Much more fluid on target than on this gif capture !  
     ![Check the result](./img/demo_result.gif)
 
