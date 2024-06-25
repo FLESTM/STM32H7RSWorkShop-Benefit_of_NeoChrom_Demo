@@ -10,28 +10,32 @@ rotating and a button which allows to activate/deactivate NeoChrom IP.
 - STM32H7S78-DK board
 
 ## TouchGFX Designer 4.24.0
+ 3 main steps will be needed :
+1. Create the background and add the widgets (two texture mapper and a toggle button) 
+2. Add interactions to made the texture mapper rotate and to activate/deactivate NeoChrom 
+3. Compile / download and test the generated project  
 
 ## 1. create background and add the widgets 
 
-### 1.1. Run TouchGFX Designer 4.24.0
+ - Run TouchGFX Designer 4.24.0
 
-### 1.2. Create New project targetting the STM32H7S78-DK board
+### 1.1. Create New project targetting the STM32H7S78-DK board
   ![Start new project](./img/Create_new_DK_project.gif)
-### 1.3. Add an image 
+### 1.2. Add an image 
   ![Add a background image](./img/add_image.gif)
-#### 1.4. Select a image with the screen size (800x480)
+### 1.3. Select a image with the screen size (800x480)
   ![Add a background image](./img/select_background.gif)
-### 1.5 Add a first texture mapper
+### 1.4. Add a first texture mapper
   - Add texture mapper widget
   - Increase scale to `2.7`
   - Resize and relocate the widget 
   ![Add a background image](./img/add_texture_mapper.gif)
-### 1.6 Add a second texture mapper
+### 1.5. Add a second texture mapper
   - Add an other texture mapper widget
   - Increase scale to `2`
   - Resize and relocate the widget 
   ![Add a background image](./img/add_texture_mapper2.gif)
-### 1.7 Add a toogle button 
+### 1.6. Add a toogle button 
   - Add a toogle button widget
   - Change the preset of this widget
   - Relocate the widget 
@@ -92,4 +96,6 @@ rotating and a button which allows to activate/deactivate NeoChrom IP.
   - connect STM32H7S78-DK to your PC
   - launch `Program and Run to Target`
     ![Add a background image](./img/compile_and_download.gif)
+  - Result on the target    
+    ![Add a background image](./img/demo_result.gif)
 
